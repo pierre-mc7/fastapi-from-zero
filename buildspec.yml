@@ -9,5 +9,5 @@ phases:
       commands:
         - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 034362074501.dkr.ecr.us-east-1.amazonaws.com
         - docker build -t myfastapi .
-        - docker tag myfastapi:latest 034362074501.dkr.ecr.us-east-1.amazonaws.com/myfastapi:latest
-        - docker push 034362074501.dkr.ecr.us-east-1.amazonaws.com/myfastapi:latest
+        - docker tag myfastapi:latest 034362074501.dkr.ecr.us-east-1.amazonaws.com/briglobal/coursera:latest
+        - docker push 034362074501.dkr.ecr.us-east-1.amazonaws.com/briglobal/coursera:latest
