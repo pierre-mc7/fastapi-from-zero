@@ -5,7 +5,6 @@ from logic.fruit import get_fruit
 from logic.wiki import wiki_search, wiki_page, wiki_keywords
 
 
-
 app = FastAPI()
 
 
